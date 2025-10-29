@@ -154,7 +154,7 @@ button {
 
 <div id = "container">
 
-<div class="infobox" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://imgur.com/eucYH2Q.png&quot;) no-repeat scroll -280px -360px"></span><strong class="searchValue">6v6 Favourites</strong><br><br>with 78 cute Pokemon!<br></summary><p>
+<div class="infobox" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%; margin-bottom: 10px"><details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://imgur.com/eucYH2Q.png&quot;) no-repeat scroll -280px -360px"></span><strong class="searchValue">6v6 Favourites</strong><br><br>with 78 cute Pokemon!<br></summary><p>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Command</b><br><br>
 
 <textarea>
@@ -162,9 +162,9 @@ button {
 </textarea>
 
 </div>
-</p></details></div><br><br>
+</p></details></div>
 
-<div class="infobox" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://imgur.com/eucYH2Q.png&quot;) no-repeat scroll -40px -1290px"></span><strong class="searchValue">5v5 Floral Dream</strong><br><br>with 5 cute, floral Pokemon!<br></summary><p>
+<div class="infobox" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%; margin-bottom: 10px"><details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://imgur.com/eucYH2Q.png&quot;) no-repeat scroll -40px -1290px"></span><strong class="searchValue">5v5 Floral Dream</strong><br><br>with 5 cute, floral Pokemon!<br></summary><p>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Command</b><br><br>
 
 <textarea>
@@ -172,9 +172,9 @@ button {
 </textarea>
 
 </div>
-</p></details></div><br><br>
+</p></details></div>
 
-<div class="infobox" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://imgur.com/eucYH2Q.png&quot;) no-repeat scroll -200px -1680px"></span><strong class="searchValue">1v1 Favorites</strong><br><br>with 78 cute Pokemon!<br></summary><p>
+<div class="infobox" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%; margin-bottom: 10px"><details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://imgur.com/eucYH2Q.png&quot;) no-repeat scroll -200px -1680px"></span><strong class="searchValue">1v1 Favorites</strong><br><br>with 78 cute Pokemon!<br></summary><p>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Command</b><br><br>
 
 <textarea>
@@ -182,9 +182,9 @@ button {
 </textarea>
 
 </div>
-</p></details></div><br><br>
+</p></details></div>
 
-<div class="infobox" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://imgur.com/eucYH2Q.png&quot;) no-repeat scroll -280px -420px"></span><strong class="searchValue">1v1 Metronome Battle</strong><br><br>with 78 cute Pokemon!<br></summary><p>
+<div class="infobox" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%; margin-bottom: 10px"><details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://imgur.com/eucYH2Q.png&quot;) no-repeat scroll -280px -420px"></span><strong class="searchValue">1v1 Metronome Battle</strong><br><br>with 78 cute Pokemon!<br></summary><p>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Command</b><br><br>
 
 <textarea>
@@ -192,9 +192,9 @@ button {
 </textarea>
 
 </div>
-</p></details></div><br><br>
+</p></details></div>
 
-<div class="infobox" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://imgur.com/eucYH2Q.png&quot;) no-repeat scroll -160px -2880px"></span><strong class="searchValue">1v1 Snowball Fight</strong><br><br>with 1 cute Vulpix-Alola!<br></summary><p>
+<div class="infobox" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%; margin-bottom: 10px"><details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://imgur.com/eucYH2Q.png&quot;) no-repeat scroll -160px -2880px"></span><strong class="searchValue">1v1 Snowball Fight</strong><br><br>with 1 cute Vulpix-Alola!<br></summary><p>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Command</b><br><br>
 
 <textarea>
@@ -202,4 +202,4 @@ button {
 </textarea>
 
 </div>
-</p></details></div><br><br>
+</p></details></div>
