@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html data-theme="dark">
+<head>
+<title>sky peak | favourite rules | rules</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+<link rel="icon" href="https://www.serebii.net/itemdex/sprites/gracidea.png" type="image/x-icon">
+<script>
+function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark }) {
+  if (localStorageTheme !== null) {
+    return localStorageTheme;
+  }
+
+  if (systemSettingDark.matches) {
+    return "dark";
+  }
+
+  return "light";
+}
+
+function updateButton({ buttonEl, isDark }) {
+  const newCta = isDark ? "Light" : "Dark";
+buttonEl.setAttribute("aria-label", newCta);
+  buttonEl.innerText = newCta;
+}
+
+function updateThemeOnHtmlEl({ theme }) {
+  document.querySelector("html").setAttribute("data-theme", theme);
+}
+
+const button = document.querySelector("[data-theme-toggle]");
+const localStorageTheme = localStorage.getItem("theme");
+const systemSettingDark = window.matchMedia("(prefers-color-scheme: dark)");
+
+let currentThemeSetting = calculateSettingAsThemeString({ localStorageTheme, systemSettingDark });
+
+updateButton({ buttonEl: button, isDark: currentThemeSetting === "dark" });
+updateThemeOnHtmlEl({ theme: currentThemeSetting });
+
+button.addEventListener("click", (event) => {
+  const newTheme = currentThemeSetting === "dark" ? "light" : "dark";
+
+  localStorage.setItem("theme", newTheme);
+  updateButton({ buttonEl: button, isDark: newTheme === "dark" });
+  updateThemeOnHtmlEl({ theme: newTheme });
+
+  currentThemeSetting = newTheme;
+});
+
+</script>
+<style>
+body {
+  font-family: "Quicksand", sans-serif;
+  padding: 30px;
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+}
+[data-theme="light"] {
+   --color-bg: #ffffff;
+   --color-fg: #000000;
+  --transition-speed: 0.5s;
+}
+[data-theme="dark"] {
+   --color-bg: #000000;
+   --color-fg: #ffffff;
+  --transition-speed: 0.5s;
+}
+button {
+  font-family: "Quicksand", sans-serif;
+  border: 1px solid var(--color-fg);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  transition: all var(--global-transition-time) ease-in-out;
+  color: var(--color-fg);
+  background-color: var(--color-bg);
+  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+}
+.top-section {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 24px;
+  position: relative;      
+}
+.center-button {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.search-bar {
+  font-family: "Quicksand", sans-serif;
+  border: 1px solid #2884c6;
+  float: right;
+  margin-right:50px;
+  position:relative;
+  padding: 8px 20px;
+  border-radius: 5px;
+  width: 15%;
+  max-width: 180px;
+  min-width: 150px;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2);
+}
+.search-bar:focus {
+  border-color: #2884c6;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.3);
+}
+</style>
+</head>
+<body>
+<center>
+<h1><table><tr><td><a style="text-decoration:none; color: #c7cf7f" href="https://rentry.co/sky-peak">sky peak</a> 🌺 <span style="color: #c7cf7f">favourite rules</span></td></tr></table></h1>
+<h3><span style="letter-spacing:5px;"><table><tr>
+<td>RULES</td>
+</tr></table></span></h3>
+</center>
+
+<hr><br>
+<center>
+
+<div class="top-section">
+  <button
+      type="button"
+      data-theme-toggle
+      aria-label="Light"
+      class = "center-button"
+    >Light</button>
+    <input type="text" id="searchBar" class="search-bar" placeholder="Type to search...">
+</div>
+<br><br>
+
+</center>
+
+<div id = "container">
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><strong class="searchValue">6v6 Hackmons</strong><br><br>Description<br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Command</b><br><br>
+
+<textarea>
+/challenge hackmonscup @@@ adjust level = 5, scalemons mod, data preview, - all pokemon, + amaura, + azurill, + bounsweet, + budew, + buneary, + bunnelby, + cherrim-sunshine, + chingling, + cleffa, + combee, + corsola, + cosmog, + cyndaquil, + dedenne, + deerling-spring, + drifloon, + eevee, + emolga, + espurr, + fennekin, + finneon, + flabébé-blue, + fletchling, + furret, + goomy, + happiny, + hatenna, + hoppip, + jigglypuff, + jirachi, + komala, + kricketot, + litten, + litwick, + lotad, + manaphy, + mantyke, + mesprit, + mew, + minccino, + mimejr, + morelull, + morpeko, + munna, + noibat, + numel, + pachirisu, + phanpy, + pichu, + pidove, + pikipek, + piplup, + ponyta-galar, + pumpkaboo-small, + ribombee, + rowlet, + sewaddle, + shaymin-land, + shinx, + skitty, + spheal, + spoink, + sprigatito, + surskit, + swablu, + swinub, + swirlix, + teddiursa, + togedemaru, + togepi, + torchic, + turtwig, + vulpix-alola, + whimsicott, + wingull, + wooloo, + wooper, - wooper-paldea, + zorua-hisui
+</textarea>
+
+</div>
+</p></details></div><br><br>
+
+<div class="searchValue" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><strong class="searchValue">1v1 Metronome</strong><br><br>Description<br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Command</b><br><br>
+
+<textarea>
+/challenge hackmonscup @@@ adjust level = 5, scalemons mod, data preview, - all pokemon, + amaura, + azurill, + bounsweet, + budew, + buneary, + bunnelby, + cherrim-sunshine, + chingling, + cleffa, + combee, + corsola, + cosmog, + cyndaquil, + dedenne, + deerling-spring, + drifloon, + eevee, + emolga, + espurr, + fennekin, + finneon, + flabébé-blue, + fletchling, + furret, + goomy, + happiny, + hatenna, + hoppip, + jigglypuff, + jirachi, + komala, + kricketot, + litten, + litwick, + lotad, + manaphy, + mantyke, + mesprit, + mew, + minccino, + mimejr, + morelull, + morpeko, + munna, + noibat, + numel, + pachirisu, + phanpy, + pichu, + pidove, + pikipek, + piplup, + ponyta-galar, + pumpkaboo-small, + ribombee, + rowlet, + sewaddle, + shaymin-land, + shinx, + skitty, + spheal, + spoink, + sprigatito, + surskit, + swablu, + swinub, + swirlix, + teddiursa, + togedemaru, + togepi, + torchic, + turtwig, + vulpix-alola, + whimsicott, + wingull, + wooloo, + wooper, - wooper-paldea, + zorua-hisui, max team size = 1, max move count = 2, - all moves, +move: Metronome, + recycle, - all items, + leppa berry
+</textarea>
+
+</div>
+</p></details></div><br><br>
+
