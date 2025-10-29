@@ -46,8 +46,27 @@ button.addEventListener("click", (event) => {
   currentThemeSetting = newTheme;
 });
 
+document.getElementById("searchBar").addEventListener("input", function() {
+    let filter = this.value.toLowerCase();
+    let cards = document.querySelectorAll("#container .infobox");
+    cards.forEach(card => {
+        card.style.display = card.querySelector(".searchValue").textContent.toLowerCase().includes(filter) ? "inline-block" : "none";
+    });
+});
+
 </script>
 <style>
+textarea {
+  padding: 25px;
+  border-radius: 5px;
+  border: 1px solid green;
+  width: 95%;
+  field-sizing: content;
+  min-height: 4rem; /* Example: set a minimum height */
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+}
 body {
   font-family: "Quicksand", sans-serif;
   padding: 30px;
