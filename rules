@@ -154,7 +154,7 @@ button {
 
 <div id = "container">
 
-<div class="infobox" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://imgur.com/eucYH2Q.png&quot;) no-repeat scroll -280px -360px"></span><strong class="searchValue">6v6 Hackmons Cup</strong><br><br>with 78 cute Pokemon!<br></summary><p>
+<div class="infobox" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://imgur.com/eucYH2Q.png&quot;) no-repeat scroll -280px -360px"></span><strong class="searchValue">6v6 Favourites</strong><br><br>with 78 cute Pokemon!<br></summary><p>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Command</b><br><br>
 
 <textarea>
@@ -164,7 +164,7 @@ button {
 </div>
 </p></details></div><br><br>
 
-<div class="infobox" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://imgur.com/eucYH2Q.png&quot;) no-repeat scroll -360px -2790px"></span><strong class="searchValue">5v5 Hackmons Cup</strong><br><br>with 5 cute Pokemon that have flowers!<br></summary><p>
+<div class="infobox" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://imgur.com/eucYH2Q.png&quot;) no-repeat scroll -40px -1290px"></span><strong class="searchValue">5v5 Floral Dream</strong><br><br>with 5 cute, floral Pokemon!<br></summary><p>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Command</b><br><br>
 
 <textarea>
@@ -174,7 +174,7 @@ button {
 </div>
 </p></details></div><br><br>
 
-<div class="infobox" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://imgur.com/eucYH2Q.png&quot;) no-repeat scroll -200px -1680px"></span><strong class="searchValue">1v1 Challenge Cup</strong><br><br>with 78 cute Pokemon!<br></summary><p>
+<div class="infobox" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://imgur.com/eucYH2Q.png&quot;) no-repeat scroll -200px -1680px"></span><strong class="searchValue">1v1 Favorites</strong><br><br>with 78 cute Pokemon!<br></summary><p>
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Command</b><br><br>
 
 <textarea>
@@ -189,6 +189,16 @@ button {
 
 <textarea>
 /challenge hackmonscup @@@ adjust level = 5, scalemons mod, data preview, - all pokemon, + amaura, + azurill, + bounsweet, + budew, + buneary, + bunnelby, + cherrim-sunshine, + chingling, + cleffa, + combee, + corsola, + cosmog, + cyndaquil, + dedenne, + deerling-spring, + drifloon, + eevee, + emolga, + espurr, + fennekin, + finneon, + flabébé-blue, + fletchling, + furret, + goomy, + happiny, + hatenna, + hoppip, + jigglypuff, + jirachi, + komala, + kricketot, + litten, + litwick, + lotad, + manaphy, + mantyke, + mesprit, + mew, + minccino, + mimejr, + morelull, + morpeko, + munna, + noibat, + numel, + pachirisu, + phanpy, + pichu, + pidove, + pikipek, + piplup, + ponyta-galar, + pumpkaboo-small, + ribombee, + rowlet, + sewaddle, + shaymin-land, + shinx, + skitty, + spheal, + spoink, + sprigatito, + surskit, + swablu, + swinub, + swirlix, + teddiursa, + togedemaru, + togepi, + torchic, + turtwig, + vulpix-alola, + whimsicott, + wingull, + wooloo, + wooper, - wooper-paldea, + zorua-hisui, max team size = 1, max move count = 2, - all moves, +move: Metronome, + recycle, - all items, + leppa berry
+</textarea>
+
+</div>
+</p></details></div><br><br>
+
+<div class="infobox" style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><details><summary><span style="display: inline-block ; height: 30px ; width: 40px ; background: transparent url(&quot;https://imgur.com/eucYH2Q.png&quot;) no-repeat scroll -160px -2880px"></span><strong class="searchValue">1v1 Snowball Fight</strong><br><br>with 1 cute Vulpix-Alola!<br></summary><p>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Command</b><br><br>
+
+<textarea>
+/challenge hackmonscup @@@ adjust level = 5, scalemons mod, data preview, - all pokemon, + vulpix-alola, max team size = 1, max move count = 3, - all moves, + fling, + recycle, + protect, - all items, + snowball, - all abilities, + snow warning, terastal clause
 </textarea>
 
 </div>
