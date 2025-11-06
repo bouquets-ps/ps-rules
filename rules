@@ -198,8 +198,22 @@ button {
 <div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Command</b><br><br>
 
 <textarea>
-/challenge hackmonscup @@@ adjust level = 5, scalemons mod, data preview, - all pokemon, + vulpix-alola, max team size = 1, max move count = 3, - all moves, + fling, + recycle, + protect, - all items, + snowball, - all abilities, + snow warning, terastal clause
+/challenge customgame
 </textarea>
+
+</div><br><br>
+<div style="display: inline-block ; border: 1px solid #68a ; border-radius: 5px ; padding: 25px ; width: 95%"><b>Team</b><br><br>
+
+<textarea>
+Vulpix-Alola (F) @ Snowball  
+Ability: Snow Warning  
+Level: 5  
+Tera Type: Ice  
+Bold Nature  
+- Fling  
+- Recycle
+</textarea>
+
 
 </div>
 </p></details></div>
